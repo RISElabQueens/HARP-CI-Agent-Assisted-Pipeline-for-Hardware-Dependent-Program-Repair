@@ -1,0 +1,20 @@
+# Core analysis and plotting
+jupyterlab
+numpy
+pandas
+matplotlib
+
+# GitHub Actions/API access and HTTP utilities
+PyGithub
+requests
+urllib3
+jsonlines
+
+# LLM/API integrations referenced by pipeline_code/pipeline.ipynb
+openai
+openai-agents
+google-genai
+
+# The notebooks also import `openai_codex` and `tools.text_chunker`.
+# Those are environment/project-specific modules and are intentionally not
+# listed as pip requirements because they are not included in this package.
